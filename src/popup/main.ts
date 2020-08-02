@@ -25,7 +25,7 @@ function init() {
                 url: 'popup/index.html?uilocation=popout',
                 type: 'popup',
                 width: Math.round(bodyRect.width + 60),
-                height: Math.round(bodyRect.height),
+                height: Math.round(bodyRect.height + 1000),
             });
             BrowserApi.closePopup(window);
             return;
